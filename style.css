@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC&display=swap");
+
+body {
+  font-family: "Noto Serif SC", serif;
+  background-color: #fdf5e6; /* Old lace background */
+  color: #8b0000; /* Dark red text */
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffebcd; /* Blanched almond */
+  box-shadow: 0 0 10px rgba(139, 0, 0, 0.5);
+  border: 5px double #8b0000;
+}
+
+#title {
+  font-family: "Ma Shan Zheng", cursive;
+  color: #b22222; /* Firebrick */
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#img-div {
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  border: 5px solid #b22222;
+  box-shadow: 0 0 15px rgba(139, 0, 0, 0.5);
+}
+
+#img-div::before,
+#img-div::after {
+  content: "福"; /* Chinese character for "Good Fortune" */
+  font-family: "Ma Shan Zheng", cursive;
+  font-size: 3em;
+  color: #b22222;
+  position: absolute;
+  top: -20px;
+}
+
+#img-div::before {
+  left: 10px;
+}
+
+#img-div::after {
+  right: 10px;
+}
+
+#img-caption {
+  font-style: italic;
+  color: #8b0000;
+  margin-top: 10px;
+  display: block;
+}
+
+#about-div {
+  background-color: #fff0f5; /* Lavender blush */
+  border: 2px solid #b22222;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#about-div h3 {
+  color: #8b0000;
+  font-family: "Ma Shan Zheng", cursive;
+  font-size: 1.5em;
+}
+
+#about-div li {
+  margin-bottom: 15px;
+  list-style-type: none;
+  padding-left: 20px;
+  position: relative;
+}
+
+#about-div li::before {
+  content: "☯"; /* Yin Yang symbol */
+  position: absolute;
+  left: 0;
+  color: #b22222;
+}
+
+#about-div strong {
+  color: #8b0000;
+}
+
+#tribute-div {
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #b22222;
+  border-radius: 0;
+  border: 2px solid #ffd700; /* Gold border */
+}
+
+#tribute-div p {
+  color: #ffd700;
+  margin: 5px 0;
+}
+
+#tribute-link {
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#tribute-link:hover {
+  text-decoration: underline;
+}
+
+/* Add some decorative elements */
+.main::before,
+.main::after {
+  content: "囍"; /* Double Happiness character */
+  font-family: "Ma Shan Zheng", cursive;
+  font-size: 4em;
+  color: #b22222;
+  position: fixed;
+  opacity: 0.2;
+}
+
+.main::before {
+  top: 20px;
+  left: 20px;
+}
+
+.main::after {
+  bottom: 20px;
+  right: 20px;
+}
